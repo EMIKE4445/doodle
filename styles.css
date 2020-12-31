@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+body{
+    background-color: rgb(93, 93, 139);
+}
+.score{
+    position: absolute;
+    right: 10px;
+    padding: 20px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: burlywood;
+}
+
+.game-over{
+    display: none;
+}
+
+.game-over-message{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 20%;
+    /* left: 45%; */
+    text-transform: uppercase;
+    font-size: 2.7rem;
+    color: #511616;
+}
+
+.retry-div{
+    display:flex;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    justify-content: center;
+}
+
+.retry{
+    /* position: absolute; */
+    /* top: 40%; */
+    /* width: 100%; */
+    /* text-align: center; */
+    margin: 0px auto;
+    /* left: 40%;  */
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: navajowhite;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.retry:hover{
+    background-color: burlywood;
+}
+
+.ball{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+.obstacle{
+    position: absolute;
+    bottom: 30px;
+    left: 1000px;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+}
+
+.ground{
+    /* display: none; */
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: brown;
+}
